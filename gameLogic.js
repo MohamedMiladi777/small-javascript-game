@@ -1,9 +1,6 @@
 /**
  * 1-Plan For step 2 :
  * Input:Nothing for now  ; output:
- */
-
-/**
  * PseudoCode:
  *  func getComputerChoice
  *  create a var that gets a random value from 1 to 3
@@ -26,3 +23,22 @@ function getComputerChoice() {
       return "paper";
   }
 }
+
+/**
+ * Plan for step 3
+ * function getHumanChoice => input: a string, output : scissor, rock or paper strings
+ * Restating the problem: The user will input a string from keyboard and should return what he typed
+ * PseudoCode:
+ * getHumanChoice(){
+ * print("What is your choice?")
+ * userChoice = prompt()
+ * return userChoice
+ * 
+ * }
+ */
+
+function getHumanChoice(){
+   const userChoice =  prompt("Select a choice")
+   return userChoice
+}
+
